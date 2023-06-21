@@ -834,6 +834,11 @@ h3.my-profession{
 
 
 /* ================================================   RESPONSIVENESS     ======================================================= */
+@media(min-width:1199px){
+    .aside .nav-togglear{
+        display: none;
+    }
+}
 
 @media(max-width:1199px){
     /* 1199 */
@@ -848,12 +853,12 @@ h3.my-profession{
     }
 
 
-    .aside.nav-togglear{
+    .aside .nav-togglear{
         display: flex;
-        left: 30px;
+        left: 20px;
     }
 
-    .aside.nav-togglear.open{
+    .aside .nav-togglear.open{
         left: 300px;
     }
     .section{
@@ -885,6 +890,14 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
 
+    }
+
+    .aside .nav-togglear {
+        left:20px
+    }
+
+    .aside .nav-togglear.open{
+        left: 300px;
     }
 
    .home .home-img{
